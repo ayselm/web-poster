@@ -1,0 +1,7 @@
+@import "content.css";
+
+@font-face {
+  font-family: Dryhten;
+  src: url("../fonts/DryhtenRegular.otf") format("OpenType");
+
+}

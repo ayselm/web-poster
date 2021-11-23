@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+
+}
+
+.strelka{
+  display: inline-block;
+  margin-left: 600px;
+}
+
+.spichki{
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.fonts{
+  overflow: hidden;
+}
+h1 {
+  font-family: Dryhten;
+  font-size: 400px;
+  line-height: 200px;
+  width: 500%;
+}
+
+.icon1 {
+  position: absolute;
+  top: 900px;
+  left: 150px;
+}
+.icon2 {
+  position: absolute;
+  top: 990px;
+  right: 150px;
+}
+.icon3 {
+  position: absolute;
+  top: 1400px;
+  left: 150px;
+}
+
+.manb{
+  width: 100%;
+}

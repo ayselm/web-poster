@@ -5,8 +5,9 @@ body {
 }
 
 .strelka{
-  display: inline-block;
-  margin-left: 600px;
+  position: absolute;
+  left: 770px;
+top: 50px;
 }
 
 
@@ -99,6 +100,5 @@ top: 944px;
 h2 {
   font-family: Dryhten;
   font-size: 36px;
-text-align: center;
 
 }

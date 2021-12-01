@@ -5,3 +5,9 @@
   src: url("../fonts/DryhtenRegular.otf") format("OpenType");
 
 }
+
+@font-face {
+  font-family: Helvetica;
+  src: url("../fonts/helvetica.otf") format("OpenType");
+
+}

@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  background-color: white;
+  background-color: #F1F1F1;
   height: 1690px;
   margin: 0;
 }
@@ -24,24 +24,24 @@ top: 50px;
 
 .fonts{
   overflow: hidden;
-  height: 1244px;
+  height: 1344px;
 }
 h1 {
   font-family: helvetica;
   font-size: 140px;
-  width: 200%;
-
+  width: 300%;
+margin: 0;
 }
 
 .man {
-   height: 1295px;
+   height: 1495px;
 }
 
 .manb{
   width: 100%;
   position: absolute;
   left: 0px;
-top:2000px;
+top:2200px;
 transform: rotate(0.85deg);
 
 
@@ -126,7 +126,7 @@ h2 {
 .icon8 {
   position: absolute;
     left: 15%;
-  top: 1500px;
+  top: 1200px;
     animation: appear3 2s infinite;
 }
 @keyframes appear3 {
@@ -135,8 +135,8 @@ h2 {
 }
 .icon9 {
   position: absolute;
-    right: 15%;
-  top: 1500px;
+    right: 85%;
+  top: 2100px;
     animation: appear3 2s infinite;
 }
 
@@ -148,13 +148,84 @@ h2 {
 }
 .icon11 {
   position: absolute;
-    right: 15%;
+    right: 75%;
   top: 1800px;
     animation: appear3 2s infinite;
 }
 
 .fire {
   position: absolute;
-    right: 38%;
-      top: 1600px;
+    right: 39%;
+      top: 1750px;
+}
+.icon12 {
+  position: absolute;
+    right: 65%;
+  top: 1490px;
+    animation: appear3 2s infinite;
+}
+
+.icon13 {
+  position: absolute;
+    right: 15%;
+  top: 2090px;
+    animation: appear3 2s infinite;
+}
+
+.container1 {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  background-color: green;
+  margin-bottom: 130px;
+
+}
+
+.frontanimation1 {
+  position: absolute;
+  animation: roll 5s linear infinite;
+  left: 0;
+
+}
+
+@keyframes roll {
+  0% {left: 0;}
+  100% {left: -107% ;}
+}
+
+.frontanimation2 {
+  position: absolute;
+  animation: roll 5s linear infinite;
+  left: 0;
+  top: 70%;
+
+}
+.frontanimation3 {
+  position: absolute;
+  animation: roll 5s linear infinite;
+  left: 0;
+  top: 90%;
+
+}
+.frontanimation4 {
+  position: absolute;
+  animation: roll 5s linear infinite;
+  left: 0;
+  top: 110%;
+
+}
+
+.frontanimation5 {
+  position: absolute;
+  animation: roll 5s linear infinite;
+  left: 0;
+  top: 140%;
+
+}
+.frontanimation6 {
+  position: absolute;
+  animation: roll 5s linear infinite;
+  left: 0;
+  top: 180%;
+
 }

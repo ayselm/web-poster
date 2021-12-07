@@ -34,7 +34,7 @@ margin: 0;
 }
 
 .man {
-   height: 1495px;
+   height: 1210px;
 }
 
 .manb{
@@ -57,11 +57,7 @@ transform: rotate(0.85deg);
 
 
 
-h2 {
-  font-family: Dryhten;
-  font-size: 36px;
 
-}
 
 .icon1 {
   position: absolute;
@@ -97,6 +93,9 @@ h2 {
 .whiterectangle {
   height: 81px;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+
 }
 .icon4 {
   position: absolute;
@@ -227,5 +226,15 @@ h2 {
   animation: roll 5s linear infinite;
   left: 0;
   top: 180%;
+
+}
+h2 {
+  font-family: helvetica;
+  font-size: 26px;
+ display: inline-block;
+}
+
+.logo {
+   display: inline-block;
 
 }

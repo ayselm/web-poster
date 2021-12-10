@@ -196,21 +196,23 @@ transform: rotate(0.85deg);
   position: absolute;
   animation: roll 5s linear infinite;
   left: 0;
-  top: 70%;
+  top: 80%;
+
+
 
 }
 .frontanimation3 {
   position: absolute;
   animation: roll 5s linear infinite;
   left: 0;
-  top: 90%;
+  top: 110%;
 
 }
 .frontanimation4 {
   position: absolute;
   animation: roll 5s linear infinite;
   left: 0;
-  top: 110%;
+  top: 140%;
 
 }
 
@@ -218,14 +220,14 @@ transform: rotate(0.85deg);
   position: absolute;
   animation: roll 5s linear infinite;
   left: 0;
-  top: 140%;
+  top: 170%;
 
 }
 .frontanimation6 {
   position: absolute;
   animation: roll 5s linear infinite;
   left: 0;
-  top: 180%;
+  top: 200%;
 
 }
 h2 {

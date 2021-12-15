@@ -23,26 +23,29 @@ top: 50px;
 }
 
 .fonts{
-  overflow: hidden;
-  height: 1344px;
+
+  position: relative;
 }
 
 
 .man {
-   height: 1210px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+position: relative;
+z-index: 1;
 }
 
 .manb{
   width: 100%;
-  position: absolute;
-  left: 0px;
-top:2200px;
-transform: rotate(0.85deg);
 
 
 }
 
-
+.fire {
+width: 25%;
+}
 
 .spichka {
   position: absolute;
@@ -90,7 +93,10 @@ transform: rotate(0.85deg);
   background-color: white;
   display: flex;
   justify-content: space-between;
-
+position: relative;
+z-index: 2;
+margin-top: -40px;
+padding: 0 10px;
 }
 .icon4 {
   position: absolute;
@@ -147,11 +153,7 @@ transform: rotate(0.85deg);
     animation: appear3 2s infinite;
 }
 
-.fire {
-  position: absolute;
-    right: 39%;
-      top: 1750px;
-}
+
 .icon12 {
   position: absolute;
     right: 65%;
@@ -170,14 +172,14 @@ transform: rotate(0.85deg);
 
   overflow: hidden;
 
-  margin-bottom: 130px;
+
 
 }
 h1 {
   font-family: helvetica;
   font-size: 140px;
   display: inline-block;
-margin: 0;
+margin-bottom: 30px;
 white-space: nowrap;
 }
 
@@ -194,50 +196,43 @@ white-space: nowrap;
 }
 
 .frontanimation2 {
-  position: absolute;
+
   animation: roll 5s linear infinite;
-  left: 0;
-  top: 80%;
+
 
 
 
 }
 .frontanimation3 {
-  position: absolute;
+
   animation: roll 5s linear infinite;
-  left: 0;
-  top: 110%;
 
 }
 .frontanimation4 {
-  position: absolute;
+
   animation: roll 5s linear infinite;
-  left: 0;
-  top: 140%;
 
 }
 
 .frontanimation5 {
-  position: absolute;
+
   animation: roll 5s linear infinite;
-  left: 0;
-  top: 170%;
+
 
 }
 .frontanimation6 {
-  position: absolute;
+
   animation: roll 5s linear infinite;
-  left: 0;
-  top: 200%;
+
 
 }
 h2 {
   font-family: helvetica;
   font-size: 26px;
- display: inline-block;
+
 }
 
 .logo {
-   display: inline-block;
+
 
 }

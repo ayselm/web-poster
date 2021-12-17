@@ -60,7 +60,7 @@ width: 25%;
 .icon1 {
   position: absolute;
   right: 20%;
-  top: 600px;
+  top: 160px;
   animation: appear 2s infinite;
 }
 
@@ -71,15 +71,15 @@ width: 25%;
 .icon2 {
   position: absolute;
   right: 60%;
-  top: 700px;
+  top: 180px;
     animation: appear 2s infinite;
     animation-delay: 1s;
 }
 
 .icon3 {
   position: absolute;
-  right: 40%;
-  top: 900px;
+  right: 75%;
+  top: 430px;
     animation: appear2 2s infinite;
     animation-delay: 0.5s;
 }
@@ -107,26 +107,26 @@ padding: 0 10px;
 
 .icon5 {
   position: absolute;
-  right: 5%;
-  top: 1100px;
+  right: 15%;
+  top: 440px;
     animation: appear2 2s infinite;
 }
 .icon6 {
   position: absolute;
-    right: 30%;
-  top: 1300px;
+    right: 50%;
+  top: 550px;
     animation: appear2 2s infinite;
 }
 .icon7 {
   position: absolute;
-    right: 40%;
-  top: 1100px;
+    right: 75%;
+  top: 900px;
     animation: appear2 2s infinite;
 }
 .icon8 {
   position: absolute;
-    left: 15%;
-  top: 1200px;
+    left: 75%;
+  top: 800px;
     animation: appear3 2s infinite;
 }
 @keyframes appear3 {
@@ -135,21 +135,21 @@ padding: 0 10px;
 }
 .icon9 {
   position: absolute;
-    right: 85%;
-  top: 2100px;
+    right: 45%;
+  top: 1100px;
     animation: appear3 2s infinite;
 }
 
 .icon10 {
   position: absolute;
     right: 15%;
-  top: 1800px;
+  top: 1550px;
     animation: appear3 2s infinite;
 }
 .icon11 {
   position: absolute;
-    right: 75%;
-  top: 1800px;
+    right: 15%;
+  top: 1900px;
     animation: appear3 2s infinite;
 }
 
@@ -163,8 +163,8 @@ padding: 0 10px;
 
 .icon13 {
   position: absolute;
-    right: 15%;
-  top: 2090px;
+    right: 75%;
+  top: 1990px;
     animation: appear3 2s infinite;
 }
 

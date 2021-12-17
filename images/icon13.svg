@@ -1,19 +1,5 @@
-<svg width="221" height="211" viewBox="0 0 221 211" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_239_72)">
-<rect x="4" width="213" height="203" rx="62" fill="white"/>
-<ellipse cx="109.452" cy="103.822" rx="94.977" ry="84.5833" fill="#30AEEB"/>
-<path d="M65.0916 118.789C71.2372 120.382 79.5244 117.463 82.8998 115.804C95.8195 107.18 122.846 89.2682 127.595 86.6146C132.344 83.961 130.505 87.7203 128.992 89.9316C120.961 97.1184 103.362 112.952 97.2163 118.789C91.0707 124.627 93.2589 128.519 95.1212 129.736C104.665 136.259 125.849 150.5 134.229 155.276C142.61 160.053 147.265 153.286 148.546 149.306C152.387 125.534 160.348 76.0666 161.465 68.3712C162.583 60.6758 153.551 61.1844 148.895 62.4006C115.956 75.7791 48.9595 103.001 44.49 104.858C40.0205 106.716 41.9294 109.612 43.4425 110.829C48.0982 112.819 58.9461 117.197 65.0916 118.789Z" fill="white"/>
-</g>
-<defs>
-<filter id="filter0_d_239_72" x="0" y="0" width="221" height="211" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_239_72"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_239_72" result="shape"/>
-</filter>
-</defs>
+<svg width="163" height="153" viewBox="0 0 163 153" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.699219" y="0.734253" width="161.862" height="151.385" rx="27.516" fill="#E196A4"/>
+<path d="M40.8025 115.18C41.9621 112.46 40.6415 108.759 39.8362 107.248L54.5729 117.219C52.9623 118.654 48.0501 121.978 41.2857 123.791C32.8302 126.057 39.353 118.579 40.8025 115.18Z" fill="white"/>
+<ellipse cx="81.8714" cy="76.2" rx="58.4637" ry="47.3644" fill="white"/>
 </svg>

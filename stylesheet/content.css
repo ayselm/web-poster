@@ -248,6 +248,9 @@ h2 {
     font-size: 16px;
 
   }
+  .spichki {
+    width: 70%;
+  }
   h1 {
     font-size: 80px;
     margin: 10px 0;
@@ -437,4 +440,5 @@ width: 80px;
   width: 90px;
 
 }
+  .icon13 {display: none;}
 }

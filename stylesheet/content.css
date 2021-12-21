@@ -1,7 +1,6 @@
 body {
   padding: 0;
   background-color: #F1F1F1;
-  height: 1690px;
   margin: 0;
 }
 
@@ -11,6 +10,7 @@ body {
   left: auto;
 
 }
+a { cursor: pointer;}
 .first {
 
 height: 365px;
@@ -93,6 +93,7 @@ width: 25%;
   background-color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 position: relative;
 z-index: 2;
 margin-top: -40px;
@@ -235,4 +236,205 @@ h2 {
 .logo {
 
 
+}
+
+/*===============================================*/
+
+
+@media screen and (max-width: 768px) {
+  .icon1, .icon9 {display: none;}
+  /*.djkhgjdkfgh {...,;  ...;}*/
+  h2 {
+    font-size: 16px;
+
+  }
+  h1 {
+    font-size: 80px;
+    margin: 10px 0;
+  }
+  .frontanimation6 {display: none;}
+
+  .icon2 {
+
+    right: 60%;
+    top: 67px;
+
+  }
+
+  .icon3 {
+
+    left: 50%;
+    top: 230px;
+
+  }
+
+
+
+  .icon4 {
+
+    left: 20%;
+    top: 1100px;
+
+  }
+
+  .icon5 {
+
+    right: 15%;
+    top: 125px;
+
+  }
+  .icon6 {
+
+      right: 20%;
+    top: 369px;
+
+  }
+  .icon7 {
+
+      right: 55%;
+    top: 417px;
+
+  }
+  .icon8 {
+
+      left: 75%;
+    top: 562px;
+width: 80px;
+  }
+
+  .icon9 {
+
+      right: 45%;
+    top: 900px;
+
+  }
+
+  .icon10 {
+
+      left: 15%;
+    top: 281px;
+
+  }
+  .icon11 {
+
+      right: 15%;
+    top: 800px;
+    width: 80px;
+
+  }
+
+
+  .icon12 {
+
+      right: 65%;
+    top: 690px;
+
+  }
+
+  .icon13 {
+
+      right: 75%;
+    top: 590px;
+    width: 90px;
+
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+.whiterectangle {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.frontanimation5 {display: none;}
+
+h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+.icon2 {
+
+  right: 60%;
+  top: 67px;
+
+}
+
+.icon3 {
+
+  left: 50%;
+  top: 230px;
+
+}
+
+
+
+.icon4 {
+
+  left: 20%;
+  top: 1100px;
+
+}
+
+.icon5 {
+
+  right: 15%;
+  top: 125px;
+
+}
+.icon6 {
+
+    right: 20%;
+  top: 369px;
+
+}
+.icon7 {
+
+    right: 55%;
+  top: 417px;
+
+}
+.icon8 {
+
+    left: 75%;
+  top: 562px;
+width: 80px;
+}
+
+.icon9 {
+
+    right: 45%;
+  top: 900px;
+
+}
+
+.icon10 {
+
+    left: 15%;
+  top: 281px;
+
+}
+.icon11 {
+
+    right: 15%;
+  top: 800px;
+  width: 80px;
+
+}
+
+
+.icon12 {
+
+    right: 65%;
+  top: 690px;
+
+}
+
+.icon13 {
+
+    right: 75%;
+  top: 590px;
+  width: 90px;
+
+}
 }

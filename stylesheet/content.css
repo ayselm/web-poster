@@ -3,11 +3,16 @@ body {
   background-color: #F1F1F1;
   margin: 0;
 }
+@keyframes mymove {
+  50% {transform: rotate(10deg);}
+}
 
 .spichki {
   position: absolute;
-  right: 1%;
-  left: auto;
+  left: 65%;
+  top: -159px;
+  width: 27%;
+ animation: mymove 3s infinite;
 
 }
 a { cursor: pointer;}
@@ -19,7 +24,8 @@ height: 365px;
 .strelka{
   position: absolute;
   right: 50%;
-top: 50px;
+  top: 50px;
+  animation: bounce 2s infinite;
 }
 
 .fonts{
@@ -55,13 +61,28 @@ width: 25%;
 
 
 
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
 
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
 
 .icon1 {
   position: absolute;
   right: 20%;
   top: 160px;
-  animation: appear 2s infinite;
+  animation: bounce 2s infinite;
 }
 
 @keyframes appear {
@@ -243,13 +264,17 @@ h2 {
 
 @media screen and (max-width: 768px) {
   .icon1, .icon9 {display: none;}
-  /*.djkhgjdkfgh {...,;  ...;}*/
   h2 {
     font-size: 16px;
 
   }
   .spichki {
-    width: 70%;
+    position: absolute;
+    left: 55%;
+    top: -89px;
+    width: 37%;
+   animation: mymove 3s infinite;
+
   }
   h1 {
     font-size: 80px;
@@ -294,7 +319,7 @@ h2 {
   }
   .icon7 {
 
-      right: 55%;
+      right: 65%;
     top: 417px;
 
   }
@@ -330,20 +355,22 @@ width: 80px;
   .icon12 {
 
       right: 65%;
-    top: 690px;
+    top: 744px;
 
   }
 
   .icon13 {
 
-      right: 75%;
-    top: 590px;
+      right: 55%;
+    top: 546px;
     width: 90px;
 
   }
 }
 
 @media screen and (max-width: 420px) {
+
+.icon1, .icon9, .icon6 {display: none;}
 
 .whiterectangle {
   flex-wrap: wrap;
@@ -352,14 +379,11 @@ width: 80px;
 
 .frontanimation5 {display: none;}
 
-h1 {
-  font-size: 60px;
-  margin: 10px 0;
-}
+
 .icon2 {
 
   right: 60%;
-  top: 67px;
+  top: -16px;
 
 }
 
@@ -382,25 +406,26 @@ h1 {
 .icon5 {
 
   right: 15%;
-  top: 125px;
-
+  top: 76px;
+width: 60px;
 }
 .icon6 {
 
     right: 20%;
-  top: 369px;
-
+  top: 257px;
+    width: 100px;
 }
 .icon7 {
 
     right: 55%;
-  top: 417px;
+  top: 357px;
+  width: 150px;
 
 }
 .icon8 {
 
     left: 75%;
-  top: 562px;
+  top: 435px;
 width: 80px;
 }
 
@@ -414,13 +439,13 @@ width: 80px;
 .icon10 {
 
     left: 15%;
-  top: 281px;
-
+  top: 187px;
+width: 150px;
 }
 .icon11 {
 
     right: 15%;
-  top: 800px;
+  top: 592px;
   width: 80px;
 
 }
@@ -429,16 +454,39 @@ width: 80px;
 .icon12 {
 
     right: 65%;
-  top: 690px;
+  top: 605px;
 
 }
 
 .icon13 {
 
     right: 75%;
-  top: 590px;
+  top: 457px;
   width: 90px;
 
 }
-  .icon13 {display: none;}
-}
+  .icon3 {
+    top: 270px;
+  }
+
+  .logo {
+    width: 70px;
+  }
+  .spichki {
+    position: absolute;
+    left: 55%;
+    top: -55px;
+    width: 37%;
+   animation: mymove 3s infinite;
+
+  }
+  h1 {
+    font-size: 80px;
+    margin: 10px 0;
+  }
+  h2 {
+    font-size: 16px;
+margin: 10px;
+margin-left: auto;
+margin-right: auto;
+  }

@@ -122,7 +122,6 @@ width: 25%;
 }
 
 .whiterectangle {
-  height: 81px;
   background-color: white;
   display: flex;
   justify-content: space-between;

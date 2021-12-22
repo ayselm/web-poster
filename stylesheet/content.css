@@ -48,7 +48,19 @@ z-index: 1;
 
 
 }
-
+#galstuk {
+  fill: red;
+  animation-name: changing;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+@keyframes changing {
+  0% {fill:black;}
+  25% {fill:#E196A4;}
+  45% {fill:#0FA821;}
+  75% {fill:#E12D2D;}
+  100% {fill:#30AEEB;}
+}
 .fire {
 width: 25%;
 }

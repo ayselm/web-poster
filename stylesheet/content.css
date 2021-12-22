@@ -51,7 +51,7 @@ z-index: 1;
 #galstuk {
   fill: red;
   animation-name: changing;
-animation-duration: 10s;
+animation-duration: 6s;
 animation-iteration-count: infinite;
 }
 @keyframes changing {

@@ -391,7 +391,7 @@ width: 80px;
 
   left: 50%;
   top: 230px;
-
+width: 170px;
 }
 
 
@@ -412,21 +412,21 @@ width: 60px;
 .icon6 {
 
     right: 20%;
-  top: 257px;
+     top: 257px;
     width: 100px;
 }
 .icon7 {
 
-    right: 55%;
+  right: 55%;
   top: 357px;
   width: 150px;
 
 }
 .icon8 {
 
-    left: 75%;
-  top: 435px;
-width: 80px;
+ left: 65%;
+ top: 435px;
+ width: 80px;
 }
 
 .icon9 {
@@ -437,11 +437,11 @@ width: 80px;
 }
 
 .icon10 {
-
-    left: 15%;
+  left: 15%;
   top: 187px;
-width: 150px;
+  width: 150px;
 }
+
 .icon11 {
 
     right: 15%;
@@ -475,8 +475,8 @@ width: 150px;
   .spichki {
     position: absolute;
     left: 55%;
-    top: -55px;
-    width: 37%;
+    top: -58px;
+    width: 40%;
    animation: mymove 3s infinite;
 
   }

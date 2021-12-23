@@ -94,7 +94,7 @@ width: 25%;
   position: absolute;
   right: 20%;
   top: 160px;
-  animation: bounce 2s infinite;
+  animation: appear 2s infinite;
 }
 
 @keyframes appear {
